@@ -69,17 +69,76 @@ h2 {
 
 }
 
+a {
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+}
+
 nav {
+    position: relative;
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
+    max-width: 1364px;
     height: 100px;
     padding: 0 32px;
     z-index: 666;
+    margin: 0 auto;
+}
+
+nav::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+    transform: translateX(-50%);
     background-color: #fff;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    width: 40%;
+    gap: 30px;
+}
+
+.nav-menu:nth-last-child(1) {
+    justify-content: flex-end;
+}
+
+nav ul a {
+    display: flex;
+    align-items: center;
+    font-family: "Aeonik", sans-serif;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
+
+.dropdown::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 6px;
+    margin-left: -2px;
+    background-image: url(img/chevron.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 section {
@@ -163,7 +222,7 @@ section {
     display: block;
     width: 100%;
     height: 250px;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -254,10 +313,8 @@ section {
     font-weight: 700;
     line-height: 1;
     padding: 0 20px;
-    outline: none;
     cursor: pointer;
     border: 1px solid #141414;
-    text-decoration: none;
     transition: color .3s ease, background-color .3s ease;
 }
 
