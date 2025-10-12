@@ -16,33 +16,58 @@
     <nav>
         <ul class="nav-menu">
             <li>
-                <a href="#" class="dropdown">identità</a>
+                <a href="#" class="nav-link dropdown">identità</a>
             </li>
             <li>
-                <a href="#">vini</a>
+                <a href="#" class="nav-link">vini</a>
             </li>
             <li>
-                <a href="#">devin cosmetica</a>
+                <a href="#" class="nav-link">devin cosmetica</a>
             </li>
         </ul>
-        <a href="#">
+        <a href="#" class="nav-logo">
             <img src="img/google.svg" height="60" alt="google logo">
         </a>
         <ul class="nav-menu">
             <li>
-                <a href="#" class="dropdown">esperienza</a>
+                <a href="#" class="nav-link dropdown">esperienza</a>
             </li>
             <li>
-                <a href="#">gift card</a>
+                <a href="#" class="nav-link">gift card</a>
             </li>
             <li>
-                <a href="#">store locator</a>
+                <a href="#" class="nav-link">store locator</a>
             </li>
             <li>
-                <a href="#" class="dropdown">
+                <a href="#" class="nav-link dropdown">
                     <img src="img/globe.svg" width="16" height="16" alt="globe icon">
                     it
                 </a>
+            </li>
+        </ul>
+        <button class="mobile" onclick="menu();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="mobile-menu">
+            <li>
+                <a href="#" class="nav-link dropdown">identità</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">vini</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">devin cosmetica</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link dropdown">esperienza</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">gift card</a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">store locator</a>
             </li>
         </ul>
     </nav>
@@ -200,4 +225,10 @@
         </div>
     </section>
 </body>
+<script>
+    function menu() {
+        var e = document.querySelector("nav");
+        e.classList.toggle("open");
+    }
+</script>
 </html>
