@@ -1,7 +1,7 @@
 {
     "experiences": [
         {
-            "cover": "img/cover-1.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-1.jpg",
             "time": 60,
             "title": "3 wines experience",
             "description": "Degustazione di tre vini al Rifugio del Vino e visita alla cantina e alla cantina",
@@ -14,7 +14,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-2.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-2.jpg",
             "time": 90,
             "title": "5 wines experience",
             "description": "Degustazione di 5 vini del territorio presso il Rifugio dei vini in cantina e barricaia",
@@ -27,7 +27,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-3.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-3.jpg",
             "time": 90,
             "title": "wine and cheese experience",
             "description": "Degustazione di 5 vini selezionati in abbinamento a 6 formaggi locali e visita alla cantina e barricaia",
@@ -40,7 +40,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-4.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-4.jpg",
             "time": 100,
             "title": "top wines experience",
             "description": "Degustazione di 5 vini di alta qualità accompagnati da un tagliere della gastronomia locale e visita alla cantina e barricaia",
@@ -53,7 +53,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-5.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-5.jpg",
             "time": 120,
             "title": "côteau la tour experience",
             "description": "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
@@ -66,7 +66,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-6.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-6.jpg",
             "time": 100,
             "title": "winemaker’s experience",
             "description": "Scopri il mondo, raccontato dal nostro enologo Raffaele, dai vigneti alla cantina.",
@@ -79,7 +79,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-7.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-7.jpg",
             "time": 90,
             "title": "côteau la tour experience",
             "description": "Degustazione di 5 vini accompagnati da un tagliere della gastronomia locale e visita in cantina e barricaia. Tour del vigneto di Côteau e brindisi nella torre medievale",
@@ -92,7 +92,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-9.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-9.jpg",
             "time": 75,
             "title": "sunset vineyard walk",
             "description": "Passeggiata al tramonto tra i vigneti con degustazione di due vini e racconti sulla storia della tenuta.",
@@ -105,7 +105,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-1.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-1.jpg",
             "time": 110,
             "title": "premium barrel tasting",
             "description": "Degustazione esclusiva direttamente dalle botti con il nostro sommelier e tagliere di prodotti locali.",
@@ -118,7 +118,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-6.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-6.jpg",
             "time": 80,
             "title": "sparkling selection",
             "description": "Scopri l’arte del vino frizzante con una degustazione guidata e brindisi finale in terrazza panoramica.",
@@ -131,7 +131,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-8.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-8.jpg",
             "time": 60,
             "title": "quick tasting tour",
             "description": "Una visita breve ma intensa per assaporare tre dei nostri vini più apprezzati accompagnati da snack tipici.",
@@ -144,7 +144,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-7.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-7.jpg",
             "time": 95,
             "title": "chef’s pairing dinner",
             "description": "Esperienza gastronomica di 4 portate abbinate a vini selezionati dallo chef della casa.",
@@ -157,7 +157,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-8.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-8.jpg",
             "time": 130,
             "title": "romantic wine night",
             "description": "Degustazione serale a lume di candela con musica dal vivo e selezione di vini rossi d’annata.",
@@ -170,7 +170,7 @@
             "link": "https://www.reddit.com"
         },
         {
-            "cover": "img/cover-3.jpg",
+            "cover": "https://bigdiavlo.github.io/winery/img/cover-3.jpg",
             "time": 150,
             "title": "grand reserve experience",
             "description": "Tour completo con visita alla cantina privata, degustazione di riserve e pranzo nel giardino interno.",
