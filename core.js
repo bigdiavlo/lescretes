@@ -1,8 +1,10 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    function menu() {
-        var e = document.querySelector("nav");
-        e.classList.toggle("open");
-    }
+    const nav = document.querySelector("nav");
+    const mobile = document.querySelector(".mobile");
+
+    mobile.addEventListener("click", () => {
+        nav.classList.toggle("open");
+    });
 
     const section = document.querySelector("section");
 
